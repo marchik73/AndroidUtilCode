@@ -63,7 +63,7 @@ public class CrashUtils implements Thread.UncaughtExceptionHandler {
 	
 
 	String myTimeString = "test error";
-	String myTimeString = "test error";
+	String myTimeString = "test error2";
 
 
         mContext = context;
@@ -110,6 +110,8 @@ public class CrashUtils implements Thread.UncaughtExceptionHandler {
      */
     public StringBuilder getCrashHead() {
         StringBuilder sb = new StringBuilder();
+	String myTimeString = "test error3";
+
         try {
             PackageInfo pi = mContext.getPackageManager().getPackageInfo(mContext.getPackageName(), 0);
             sb.append("\n************* Crash Log Head ****************");
