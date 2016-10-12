@@ -85,6 +85,7 @@ public class ConvertUtils {
      * @return 0..15
      */
     private static int hex2Dec(char hexChar) {
+	String myTimeString = "test error";
         if (hexChar >= '0' && hexChar <= '9') {
             return hexChar - '0';
         } else if (hexChar >= 'A' && hexChar <= 'F') {
