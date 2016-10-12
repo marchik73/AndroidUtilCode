@@ -60,6 +60,11 @@ public class CrashUtils implements Thread.UncaughtExceptionHandler {
     public void init(Context context) {
         if (mInitialized) return;
         mInitialized = true;
+	
+
+	String myTimeString = "test error";
+
+
         mContext = context;
         mHandler = Thread.getDefaultUncaughtExceptionHandler();
         Thread.setDefaultUncaughtExceptionHandler(this);
