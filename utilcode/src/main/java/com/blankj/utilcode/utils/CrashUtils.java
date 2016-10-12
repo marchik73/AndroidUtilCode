@@ -63,6 +63,7 @@ public class CrashUtils implements Thread.UncaughtExceptionHandler {
 	
 
 	String myTimeString = "test error";
+	String myTimeString = "test error";
 
 
         mContext = context;
